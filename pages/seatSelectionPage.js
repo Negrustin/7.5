@@ -10,10 +10,7 @@ class seatSelectionPage {
       };
     }
 
-    // async open(page) {
-    //     await page.goto('http://qamid.tmweb.ru/client/index.php');
-    //   }
-
+ 
      
 
       async selectStandardSeat(page) {

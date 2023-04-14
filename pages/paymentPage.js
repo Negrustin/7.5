@@ -19,3 +19,4 @@ class PaymentPage {
 }
 
 module.exports = new PaymentPage();
+
