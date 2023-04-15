@@ -1,0 +1,207 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cinema-ticket-purchasing;buy-a-standard-ticket-for-a-movie",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Buy a standard ticket for a movie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the main page",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3375818000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select a day and a movie time",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199793099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select a standard seat",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427206299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I confirm the seat",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37743999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I get the booking code",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 813825800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the booking confirmation message",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162715900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 423453600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cinema-ticket-purchasing;buy-a-vip-ticket-for-a-movie",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Buy a VIP ticket for a movie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the main page",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1782938100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select a day and a movie time",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210152500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select a VIP seat",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437556199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I confirm the seat",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195847799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I get the booking code",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658858599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the booking confirmation message",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141434400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 616699699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cinema-ticket-purchasing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cinema ticket purchasing",
+    "tags": [],
+    "uri": "features\\ticket_purchasing.feature"
+  }
+]
