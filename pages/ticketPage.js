@@ -1,4 +1,4 @@
-const {clickElement, getText,putText} = require('../lib/commands');
+const {clickElement, getText,putText, checkIfDisabled} = require('../lib/commands');
 
 class TicketPage {
 

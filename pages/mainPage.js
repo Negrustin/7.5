@@ -1,7 +1,8 @@
 const {
     clickElement,
     getText,
-    putText
+    putText,
+    checkIfDisabled
 } = require('../lib/commands');
 
 class MainPage {

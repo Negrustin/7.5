@@ -15,3 +15,8 @@ Feature: Cinema ticket purchasing
     And I confirm the seat
     And I get the booking code
     Then I should see the booking confirmation message
+
+  Scenario: Check if the acceptin button is disabled when no seat is selected
+    Given I am on the main page
+    When I select a day and a movie time
+    Then I should see that the acceptin button is disabled

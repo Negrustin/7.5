@@ -1,5 +1,5 @@
 // my tests
-const { clickElement, putText, getText } = require("../lib/commands.js");
+const { clickElement, putText, getText, checkIfDisabled } = require("../lib/commands.js");
 const mainPage = require('../pages/mainPage');
 const seatSelectionPage = require('../pages/seatSelectionPage')
 const paymentPage = require('../pages/paymentPage');
@@ -18,7 +18,7 @@ describe('Cinema ticket purchasing page', () => {
     });
   
     test('should buy a standard ticket  for a movie successfully', async () => {
-        await mainPage.selectDayByIndex(page, 1);
+        await mainPage.selectDayByIndex(page, 3);
         await mainPage.selectMovieTime(page);
         await seatSelectionPage.selectStandardSeat(page)
         await seatSelectionPage.clickToAcceptinButton(page);
@@ -33,7 +33,7 @@ describe('Cinema ticket purchasing page', () => {
     });
 
     test('should buy a VIP ticket  for a movie successfully', async () => {
-        await mainPage.selectDayByIndex(page, 1);
+        await mainPage.selectDayByIndex(page, 3);
         await mainPage.selectMovieTime(page);
         await seatSelectionPage.selectVipSeat(page)
         await seatSelectionPage.clickToAcceptinButton(page);
@@ -46,6 +46,15 @@ describe('Cinema ticket purchasing page', () => {
 
 
     });
+
+    test.only('Check if acceptin-button is disabled', async () => {
+        await mainPage.selectDayByIndex(page, 2);
+        await mainPage.selectMovieTime(page);
+        const isDisabled = await seatSelectionPage.isAcceptinButtonDisabled(page);
+expect(isDisabled).toBe(true);
+        
+      });
+
 
     
 });

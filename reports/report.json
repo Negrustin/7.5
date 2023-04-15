@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1594193699
+              "duration": 2044328900
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229262700
+              "duration": 227417999
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 463502099
+              "duration": 346029500
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60749300
+              "duration": 53452399
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 885715099
+              "duration": 526875200
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 310378299
+              "duration": 136179199
             }
           },
           {
@@ -92,7 +92,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 563205200
+              "duration": 422512699
             }
           }
         ],
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1713164400
+              "duration": 1710840900
             }
           },
           {
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 243367300
+              "duration": 209947899
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 527695399
+              "duration": 354052399
             }
           },
           {
@@ -155,7 +155,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 102821299
+              "duration": 52556299
             }
           },
           {
@@ -168,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 878725199
+              "duration": 565483700
             }
           },
           {
@@ -181,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 308715799
+              "duration": 107480499
             }
           },
           {
@@ -189,7 +189,65 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 461694700
+              "duration": 555520300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cinema-ticket-purchasing;check-if-the-acceptin-button-is-disabled-when-no-seat-is-selected",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Check if the acceptin button is disabled when no seat is selected",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am on the main page",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1636127099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I select a day and a movie time",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225718100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see that the acceptin button is disabled",
+            "match": {
+              "location": "features\\step_definitions\\ticket_purchasing_steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304785300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 381888599
             }
           }
         ],
