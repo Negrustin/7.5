@@ -1,12 +1,7 @@
 // my tests
 const { clickElement, putText, getText } = require("../lib/commands.js");
-const MainPage = require('../pages/mainPage');
-const mainPage = new MainPage();
-
-const SeatSelectionPage = require('../pages/seatSelectionPage')
-const seatSelectionPage = new SeatSelectionPage();
-
-
+const mainPage = require('../pages/mainPage');
+const seatSelectionPage = require('../pages/seatSelectionPage')
 const paymentPage = require('../pages/paymentPage');
 const ticketPage = require('../pages/ticketPage');
 

@@ -1,6 +1,6 @@
 // code
 const { clickElement, getText, putText } = require('../lib/commands');
-class seatSelectionPage {
+class SeatSelectionPage {
     constructor() {
       this.selectors = {
         standardSeat: '.buying-scheme__row .buying-scheme__chair_standart:not(.buying-scheme__chair_taken)',
@@ -27,4 +27,4 @@ class seatSelectionPage {
       
 }
 
-module.exports = seatSelectionPage;
+module.exports = new SeatSelectionPage();

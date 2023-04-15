@@ -31,4 +31,4 @@ class MainPage {
     }
 }
 
-module.exports = MainPage;
+module.exports = new MainPage();

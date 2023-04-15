@@ -8,7 +8,7 @@ class PaymentPage {
 
     constructor() {
         this.selectors = {
-            acceptinButton: '.acceptin-button',
+            acceptinButton: '[onclick="location.href=\'scripts/sale_save.php\'"]',
 
         };
     }
@@ -19,4 +19,3 @@ class PaymentPage {
 }
 
 module.exports = new PaymentPage();
-
