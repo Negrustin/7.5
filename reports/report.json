@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2044328900
+              "duration": 2075131000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 227417999
+              "duration": 551421099
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346029500
+              "duration": 507427299
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53452399
+              "duration": 70463199
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 526875200
+              "duration": 953886900
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 136179199
+              "duration": 320156200
             }
           },
           {
@@ -92,7 +92,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 422512699
+              "duration": 511046200
             }
           }
         ],
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1710840900
+              "duration": 1737006699
             }
           },
           {
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 209947899
+              "duration": 194665899
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 354052399
+              "duration": 515163699
             }
           },
           {
@@ -155,7 +155,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52556299
+              "duration": 67733599
             }
           },
           {
@@ -168,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 565483700
+              "duration": 872798099
             }
           },
           {
@@ -181,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 107480499
+              "duration": 300028299
             }
           },
           {
@@ -189,7 +189,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 555520300
+              "duration": 437939400
             }
           }
         ],
@@ -213,7 +213,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1636127099
+              "duration": 1693419000
             }
           },
           {
@@ -226,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 225718100
+              "duration": 249174000
             }
           },
           {
@@ -238,8 +238,9 @@
               "location": "features\\step_definitions\\ticket_purchasing_steps.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 304785300
+              "status": "failed",
+              "duration": 1205799,
+              "error_message": "Error: Selector is not available: .acceptin-button\n    at checkIfDisabled (C:\\Users\\LENOVO\\myHomeworks\\7-5\\lib\\commands.js:33:15)\n    at SeatSelectionPage.isAcceptinButtonDisabled (C:\\Users\\LENOVO\\myHomeworks\\7-5\\pages\\seatSelectionPage.js:36:21)\n    at World.<anonymous> (C:\\Users\\LENOVO\\myHomeworks\\7-5\\features\\step_definitions\\ticket_purchasing_steps.js:49:46)"
             }
           },
           {
@@ -247,7 +248,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 381888599
+              "duration": 430351499
             }
           }
         ],

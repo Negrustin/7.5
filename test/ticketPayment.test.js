@@ -1,5 +1,10 @@
 // my tests
-const { clickElement, putText, getText, checkIfDisabled } = require("../lib/commands.js");
+const {
+    clickElement,
+    putText,
+    getText,
+    checkIfDisabled
+} = require("../lib/commands.js");
 const mainPage = require('../pages/mainPage');
 const seatSelectionPage = require('../pages/seatSelectionPage')
 const paymentPage = require('../pages/paymentPage');
@@ -16,7 +21,7 @@ describe('Cinema ticket purchasing page', () => {
     afterEach(async () => {
         await page.close();
     });
-  
+
     test('should buy a standard ticket  for a movie successfully', async () => {
         await mainPage.selectDayByIndex(page, 3);
         await mainPage.selectMovieTime(page);
@@ -51,10 +56,10 @@ describe('Cinema ticket purchasing page', () => {
         await mainPage.selectDayByIndex(page, 2);
         await mainPage.selectMovieTime(page);
         const isDisabled = await seatSelectionPage.isAcceptinButtonDisabled(page);
-expect(isDisabled).toBe(true);
-        
-      });
+        expect(isDisabled).toBe(true);
+
+    });
 
 
-    
+
 });

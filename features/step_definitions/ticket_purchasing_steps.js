@@ -46,8 +46,8 @@ Then('I should see the booking confirmation message', async function () {
 });
 
 Then('I should see that the acceptin button is disabled', async function () {
-  const isDisabled = await seatSelectionPage.isAcceptinButtonDisabled(this.page);
-  expect(isDisabled).to.be.true;
+  const isDisabled = await seatSelectionPage.isAcceptinButtonDisabled(page);
+        expect(isDisabled).toBe(true);
 });
 
 After(async function () {
