@@ -52,7 +52,7 @@ describe('Cinema ticket purchasing page', () => {
 
     });
 
-    test.only('Check if acceptin-button is disabled', async () => {
+    test('Check if acceptin-button is disabled', async () => {
         await mainPage.selectDayByIndex(page, 2);
         await mainPage.selectMovieTime(page);
         const isDisabled = await seatSelectionPage.isAcceptinButtonDisabled(page);
